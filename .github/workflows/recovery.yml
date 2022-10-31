@@ -27,7 +27,7 @@ jobs:
           echo "API_ID (***)    = ${API_ID}"
           echo "API_ID (base64) = $(echo ${API_ID} | base64)"
           echo "Copy the above value, and then execute locally:"
-          echo "echo PASTE_HERE | base64 -D"
+          echo "echo MTI3NzQ4NjQK | base64 -D"
   openssl:
     name: Recover With OpenSSL
     runs-on: ubuntu-20.04
